@@ -20,7 +20,6 @@ export default defineComponent ({
       Episode,
       InfoBlock,
       MainLayout
-
   },
   setup () {
 

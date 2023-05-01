@@ -4,8 +4,8 @@
 
         <div class="inner-header">
             <div class="top-block">
-                <img class="logo" src="../assets/logo.svg" alt="logo">
-                <div class="theme-switcher" @click="toast">
+                <img data-aos="fade-down" data-aos-duration="700" class="logo" src="../assets/logo.svg" alt="logo">
+                <div data-aos="zoom-in-down" data-aos-duration="1000" class="theme-switcher" @click="toast">
                     <svg v-if="theme === 'light'" @click="setTheme('dark')" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
                         <circle cx="12" cy="12" r="5"></circle>
                         <line x1="12" y1="1" x2="12" y2="3"></line>
@@ -22,7 +22,7 @@
                     </svg>
                 </div>
             </div>
-            <h1>Як заробляти <span class="stroke-container"><img class="stroke" src="../assets/stroke.png" alt="stroke"> від $100</span> на день на налаштуванні рекламних кампаній Facebook+Instagram</h1>
+            <h1 data-aos="zoom-in" data-aos-duration="1000">Як заробляти <span class="stroke-container"><img class="stroke" src="../assets/stroke.png" alt="stroke"> від $100</span> на день на налаштуванні рекламних кампаній Facebook+Instagram</h1>
         </div>
 
     </header>
@@ -33,6 +33,9 @@
 
 import { defineComponent, onBeforeMount, onMounted, ref } from 'vue'
 import {createToast} from "mosha-vue-toastify";
+
+import AOS from 'aos'
+import 'aos/dist/aos.css'
 
 export default defineComponent ({
     name: 'Header',
@@ -64,6 +67,9 @@ export default defineComponent ({
         })
 
         onMounted(()=>{
+
+            AOS.init()
+
             // Check if there is a saved theme in local storage and set it
             const savedTheme = localStorage.getItem('theme')
             if (savedTheme) {

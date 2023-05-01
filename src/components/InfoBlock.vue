@@ -4,11 +4,11 @@
     <h2>Пройдіть практикум до кінця і на вас чекатимуть 2 подарунки:</h2>
       <div class="columns">
           <div class="column-info">
-              <div class="line-block">
+              <div data-aos="fade-right" data-aos-duration="1000" class="line-block">
                   <img class="cash" src="../assets/cash.svg" alt="cash">
                   <p>+1 потенційний замовник на ваші послуги (прибуток $50−500). Перші гроші і перший досвід із налаштування реклами</p>
               </div>
-              <div class="line-block">
+              <div class="line-block" data-aos="fade-left" data-aos-duration="1000">
                   <img class="gift" src="../assets/gift.svg" alt="gift">
                   <p>Розбір вашого шляху до результатів від куратора (відповіді на питання, розбір реклами, додаткові матеріали та сюрприз)</p>
               </div>
@@ -19,12 +19,12 @@
               </div>
               <div class="column-info">
                   <div class="react-block">
-                      <img class="react react-blue" src="../assets/react-blue.svg" alt="react-blue">
-                      <img class="react react-orange" src="../assets/react-orange.svg" alt="react-orange">
-                      <img class="react react-pink" src="../assets/react-pink.svg" alt="react-pink">
-                      <img class="react" src="../assets/react.svg" alt="react">
-                      <img class="react" src="../assets/react.svg" alt="react">
-                      <img class="react" src="../assets/react.svg" alt="react">
+                      <img data-aos="zoom-in" data-aos-duration="1000" class="react react-blue" src="../assets/react-blue.svg" alt="react-blue">
+                      <img data-aos="zoom-in" data-aos-duration="1200" class="react react-orange" src="../assets/react-orange.svg" alt="react-orange">
+                      <img data-aos="zoom-in" data-aos-duration="1400" class="react react-pink" src="../assets/react-pink.svg" alt="react-pink">
+                      <img data-aos="zoom-in" data-aos-duration="1600" class="react" src="../assets/react.svg" alt="react">
+                      <img data-aos="zoom-in" data-aos-duration="1800" class="react" src="../assets/react.svg" alt="react">
+                      <img data-aos="zoom-in" data-aos-duration="2000" class="react" src="../assets/react.svg" alt="react">
                   </div>
                   <p>Зберіть 6 атомів для подарунків</p>
               </div>

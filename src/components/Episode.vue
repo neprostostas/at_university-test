@@ -6,7 +6,7 @@
     </div>
 
     <div class="videos-content">
-        <div class="tab-content content" v-for="(lesson, index) in lessonsData" :key="index" :class="{ active: index === currentTab }">
+        <div data-aos="fade-right" data-aos-duration="1000" class="tab-content content" v-for="(lesson, index) in lessonsData" :key="index" :class="{ active: index === currentTab }">
             <div>
                 <ul>
                     <li>
@@ -19,7 +19,7 @@
             </div>
         </div>
 
-        <div class="tabs">
+        <div data-aos="fade-left" data-aos-duration="1000" class="tabs">
             <button class="tab" v-for="(lesson, index) in lessonsData" :key="index" :class="{ active: index === currentTab }" @click="currentTab = index">{{index+1}}. {{lesson.title}}</button>
         </div>
     </div>
@@ -27,7 +27,7 @@
     <div class="next-container">
         <div class="tab-content content" v-for="(lesson, index) in lessonsData" :key="index" :class="{ active: index === currentTab }">
             <div class="known-block">
-                <div class="column-info">
+                <div data-aos="fade-up-right" data-aos-duration="1000" class="column-info">
                     <img class="img-text1" src="../assets/text1.svg" alt="text1">
                     <img class="img-text2" src="../assets/text2.svg" alt="text2">
 
@@ -36,7 +36,7 @@
                     </ul>
                 </div>
 
-                <div class="columns-right">
+                <div data-aos="fade-up-left" data-aos-duration="1000" class="columns-right">
                     <img class="stroke-long" src="../assets/stroke-long.svg" alt="stroke-long">
                     <div class="column-info">
                         <p class="ready-text">Вже переглянули? Отримайте доступ до наступного:</p>
