@@ -1,0 +1,72 @@
+[
+  {
+    "title": "Introduction to Python",
+    "subtitle": "Beginner level",
+    "video_url": "kqtD5dpn9C8",
+    "video_time": 180,
+    "description": "This lesson provides an introduction to the Python programming language, covering basic syntax, data types, and control structures.",
+    "info": [
+      "Learn the fundamentals of Python programming",
+      "Understand variables, data types, and control structures in Python",
+      "Get hands-on practice through practical coding exercises",
+      "Suitable for beginners with no programming experience",
+      "Great stepping stone for more advanced Python courses"
+    ]
+  },
+  {
+    "title": "Object-Oriented Programming in Java",
+    "subtitle": "Intermediate level",
+    "video_url": "pTB0EiLXUC8",
+    "video_time": 240,
+    "description": "In this lesson, we will cover the principles of object-oriented design and programming in Java, including classes, objects, inheritance, and polymorphism.",
+    "info": [
+      "Learn object-oriented programming concepts in Java",
+      "Understand classes, objects, inheritance, and polymorphism",
+      "Get hands-on practice with coding exercises and quizzes",
+      "Suitable for intermediate-level Java developers",
+      "Great foundation for advanced Java programming courses"
+    ]
+  },
+  {
+    "title": "React Fundamentals",
+    "subtitle": "Intermediate level",
+    "video_url": "Tn6-PIqc4UM",
+    "video_time": 180,
+    "description": "This lesson will introduce you to the React library for building user interfaces with JavaScript. We will cover the basics of components, state, and props.",
+    "info": [
+      "Learn the fundamentals of building user interfaces with React",
+      "Understand components, state, and props in React",
+      "Get hands-on practice with practical coding exercises",
+      "Suitable for intermediate-level JavaScript developers",
+      "Great stepping stone for more advanced React courses"
+    ]
+  },
+  {
+    "title": "Machine Learning with TensorFlow",
+    "subtitle": "Advanced level",
+    "video_url": "i8NETqtGHms",
+    "video_time": 300,
+    "description": "In this lesson, we will explore the TensorFlow library for developing machine learning applications. We will cover topics such as neural networks, convolutional networks, and recurrent networks.",
+    "info": [
+      "Learn how to develop machine learning applications with TensorFlow",
+      "Understand neural networks, convolutional networks, and recurrent networks",
+      "Get hands-on practice with coding exercises and real-world examples",
+      "Suitable for advanced-level developers with some knowledge of machine learning",
+      "Great foundation for more advanced TensorFlow courses"
+    ]
+  },
+  {
+    "title": "Data Processing with Pandas",
+    "subtitle": "Beginner level",
+    "video_url": "vmEHCJofslg",
+    "video_time": 240,
+    "description": "In this lesson, we will cover the Pandas library for data manipulation and analysis in Python. We will cover topics such as data frames, series, and joining and merging data.",
+    "info": [
+      "Learn how to manipulate and analyze data with Pandas library in Python",
+      "Understand data frames, series, and joining and merging data",
+      "Get hands-on practice with coding exercises and real-world examples",
+      "Suitable for beginners with no prior knowledge of data analysis or Pandas",
+      "Great stepping stone for more advanced data analysis courses"
+    ]
+  }
+]
